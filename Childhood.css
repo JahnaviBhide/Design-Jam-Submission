@@ -1,0 +1,66 @@
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+body {
+    background-color: #e0e8f3;
+    font-size : 25px ;
+    opacity : 5 ;
+}
+h1{
+    text-align: center;
+    margin-top : 50px ;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    color : rgb(53, 2, 53);
+}
+
+  
+.container {
+    position: relative;
+    max-width: 100%;
+    margin-left : 50px ;
+    margin-right : 50px ;
+    margin-top: 100px;
+    margin-bottom : 100px ;
+    display : inline-flex ;
+    text-align : center ;  
+  }
+img{
+    width : 100% ;
+    object-fit : scale-down ;
+    height : 100% ;
+}
+  .overlay {
+    position: absolute;
+    overflow : scroll ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsla(331, 37%, 71%, 0.64);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+.text{
+    padding : 20px ;
+    font-size: 40px;
+}
+
+
+
+.youth{
+      text-align : left ;
+  }

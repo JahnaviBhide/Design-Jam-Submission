@@ -1,0 +1,25 @@
+
+h1{
+    display : flex ;
+    justify-content: center;
+    color : white;
+}
+.container{
+    display : flex ;
+    max-width : 1000px ;
+    max-height : 700px; ;
+    justify-content: center;
+    margin : 0 auto ;
+   
+}
+img{
+   display : flex ;
+    width : 100% ;
+}
+button{
+    background-color:black;
+    color : white ;
+    font-size : 50px ;
+    width : 50px ;
+
+}
